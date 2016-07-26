@@ -2,8 +2,6 @@
 
 ## Build Instructions
 
-Run the following command from the root of this project:
-
 ```bash
 cd buttons
 elm install package
