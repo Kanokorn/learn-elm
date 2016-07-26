@@ -4,7 +4,7 @@
 
 ```bash
 cd buttons
-elm install package
+elm package install
 elm-make Buttons.elm
 ```
 
