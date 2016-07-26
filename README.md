@@ -5,7 +5,7 @@
 ```bash
 cd buttons
 elm package install
-elm-make Buttons.elm
+elm make Buttons.elm
 ```
 
 Then open `index.html` in your browser!
