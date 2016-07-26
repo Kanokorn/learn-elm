@@ -4,6 +4,7 @@ import ElmTest exposing (..)
 import Html exposing (pre, text)
 import Buttons
 
+
 tests =
     suite "Buttons"
         [ test "Increment 1 from 1" (assertEqual 2 (Buttons.update Buttons.Increment 1))
@@ -11,5 +12,6 @@ tests =
         , test "Reset" (assertEqual 0 (Buttons.update Buttons.Reset 5))
         ]
 
+
 main =
-    pre [] [text (stringRunner tests)]
+    pre [] [ text (stringRunner tests) ]
