@@ -17,4 +17,4 @@ Then open `index.html` in your browser!
 elm reactor
 ```
 
-Then open `http://localhost:8000/` in your browser!
+Then open `http://localhost:8000/Tests.elm` in your browser!
